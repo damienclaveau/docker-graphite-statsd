@@ -12,6 +12,8 @@ RUN apt-get -y update\
 
 # dependencies
 RUN apt-get -y --force-yes install vim\
+ nmap\
+ iputils-ping\
  nginx\
  python-dev\
  python-flup\
